@@ -1,0 +1,298 @@
+/* CODING FOR HOME PAGE */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.container h2{
+    font-family: 'Tilt Prism', cursive;
+}
+.container nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container nav li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar{
+    background-color: rgb(237, 200, 220);
+    width: 4px;
+    height: 100vh;
+    padding: -10px;
+}
+
+.sidebar nav{
+    padding: 25px;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+    max-height: 100%;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main #nametag{
+    font-size: 60px;
+    padding: -50px;
+    text-shadow: 5px 5px 2px rgb(140, 30, 120);
+    margin: 15px 15px;
+
+}
+.info{
+    /* background-color: rgb(187, 55, 121); */
+    height: 70.8%;
+    width: 100%;
+    margin: 56px auto;
+    /* margin-right: -10px; */
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    padding: 40px;
+}
+.devpic img{
+    height: 64vh;
+    margin: 0 50px;   
+}
+.devpic img:hover{
+    box-shadow: 20px 20px 20px black;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -10px 93px
+}
+.hello{
+    font-size: 70px;
+    font-family: 'Josefin Sans';
+    
+}
+.name{
+    font-size: 90px;
+    font-family: 'Tilt Prism', cursive;
+}
+.about{ 
+    font-size: 30px;
+    font-family: 'Tilt Warp', cursive;
+}
+.moreabout{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* BUTTON FOR HOME.HTML */
+
+.buttons button{
+    margin: 25px 10px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(11, 8, 8);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: rgb(92, 92, 232);
+    
+}
+
+/* CODING OF CONTACT.HTML PAGE */
+
+.contactform{
+    padding: 0 34px;
+    margin: -130px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 144px;  
+}
+.contactform h1{
+    font-family: 'source code pro',monospace;
+    margin-bottom: 30px 0;
+}
+.contactform .form-group{
+    padding: 10px 0;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform #emailHelp{
+    font-size: 10px;
+    color: rgb(180, 58, 58);
+    margin-top: 7px;
+}
+.contactform #clientemail{
+    width: 15vw;
+    padding: 5px 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 25vw;
+}
+.contactform #clientphone{
+    width: 15vw;
+    padding: 5px 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 25vw;
+}
+.contactform button{
+    width: 80px;
+    padding: 5px 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+ /* BUTTONS OF CONTACT.HTML PAGE */
+
+.contactform button:hover{
+    background-color: rgb(2, 2, 3);
+    color: white;
+}
+.contactform .form-check .form-check-label{
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+/* CODING FOR BLOG.HTML */
+
+.blogcontainer h1{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blogitem{
+    /* margin: 20px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.blogs h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.blogitem p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blogitem button{
+    background-color: rgb(7, 7, 11);
+    color: white;
+    padding: 5px 10px;
+    margin: 2px 0;
+    font-size: 10px;
+}
+.blogs{   
+    height: 500px;
+    max-width: 100%;            
+    margin: 20px;
+}
+.blogitem{
+    margin: 20px 0;   
+}
+.blogitem p{
+    margin: 23px 0;   
+}
+
+/* CODING OF INTRO.HTML */
+
+.main h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+.main p{
+    font-size: 19px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+}
+.main h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 25px;
+}
+.skillcontainer{
+    padding: 10px;
+    border: 4px solid black;
+    margin: 10px;
+    background-color: rgb(224, 244, 237);
+    
+    
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    
+}
+.skill{
+    width: 265px;
+    height: 15px;
+    background-color: red;
+    margin: 10px 10px;
+    border: 3px solid black;  
+}
+.hundred{
+    width: 265px;
+    background-color: rgb(13, 79, 57);
+}
+.fifty{
+    width: 125px;
+    background-color: rgb(147, 17, 106);
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.ten{
+    width: 50px;
+    background-color: rgb(192, 79, 79);
+}
+
+.myproject h2{
+    margin: 30px 10px;
+}
+.myproject h3{
+    margin: 15px 10px;
+}
+.project{
+    margin: 10px;
+    border: 4px solid black;
+    background-color: rgb(205, 236, 236);
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 800px){
+   /* *{
+    background-color: red;
+   }  */
+   .sidebar{
+    height: 50%;
+    width: 50%;
+    /* transform: translate(-4430px 0);
+    position: absolute; */
+   }
+   .info{
+    flex-wrap: wrap;
+   }
+}
+@media (min-width: 375px){
+    
+    .sidebar{
+    width: 20%;
+}
+    
+}
+@media (max-width: 1615px){
+    .sidebar{
+        width: 35%;
+        padding-left: 10px;
+    }
+}
+
+
+
